@@ -1,0 +1,50 @@
+# ---------- 构建输出 ----------
+[Bb]in/
+[Oo]bj/
+[Dd]ebug/
+[Rr]elease/
+x64/
+x86/
+[Dd]ebugPublic/
+[Rr]eleasePublic/
+build/
+out/
+cmake-build-*/
+
+# ---------- Visual Studio 缓存与用户配置 ----------
+.vs/
+*.user
+*.rsuser
+*.suo
+*.userosscache
+*.sln.docstates
+*.VC.db
+*.VC.VC.opendb
+.vscode/
+
+# ---------- 编译产物 ----------
+*.exe
+*.pdb
+*.ilk
+*.obj
+*.idb
+*.exp
+*.lib
+*.dll
+*.o
+*.a
+*.so
+*.dSYM/
+
+# ---------- CMake ----------
+CMakeCache.txt
+CMakeFiles/
+cmake_install.cmake
+Makefile
+
+# ---------- 系统与编辑器 ----------
+Thumbs.db
+desktop.ini
+.DS_Store
+*~
+*.swp
